@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.12.0](https://github.com/shaka-project/shaka-player/compare/v4.11.0...v4.12.0) (2024-09-09)
+
+
+### Features
+
+* Add manifest.disableIFrames config ([#7255](https://github.com/shaka-project/shaka-player/issues/7255)) ([7b07614](https://github.com/shaka-project/shaka-player/commit/7b076145327e7960e9dec51d24d774b9189f52a2))
+* **Ads:** Add config to allow disable interstitials ([#7271](https://github.com/shaka-project/shaka-player/issues/7271)) ([64e45c9](https://github.com/shaka-project/shaka-player/commit/64e45c96ba468b938477b951a21a42b7d6de7d96))
+* **DASH:** Disable xlink processing by default ([#7264](https://github.com/shaka-project/shaka-player/issues/7264)) ([d5ed8ed](https://github.com/shaka-project/shaka-player/commit/d5ed8edaf529613bcec624dc6a27e840e82ce4ea))
+* **UI:** Use the lang= attribute to help screen-readers recognize localized labels ([#7267](https://github.com/shaka-project/shaka-player/issues/7267)) ([3590aee](https://github.com/shaka-project/shaka-player/commit/3590aeea3d15e22e2734d888e354534b66c56845))
+
+
+### Bug Fixes
+
+* Fix rendering of image subs when using SimpleTextDisplayer ([#7258](https://github.com/shaka-project/shaka-player/issues/7258)) ([3d0b817](https://github.com/shaka-project/shaka-player/commit/3d0b817588bc7925c4153740490b8d9ed4a1e345))
+* **TTML:** Fix subtitles not rendered due to complaint about xml:id ([#7270](https://github.com/shaka-project/shaka-player/issues/7270)) ([257de7f](https://github.com/shaka-project/shaka-player/commit/257de7fed392d84a5e19f997b78b1d539d07b6e8))
+* **UI:** Display the font-family correctly in some cases ([#7266](https://github.com/shaka-project/shaka-player/issues/7266)) ([96f8914](https://github.com/shaka-project/shaka-player/commit/96f8914116ef4af69e333f1ad22ca167cd44e591))
+* **WebVTT:** Fix mapNativeCueToShakaCue in Chromium browsers ([#7273](https://github.com/shaka-project/shaka-player/issues/7273)) ([76376e9](https://github.com/shaka-project/shaka-player/commit/76376e97f181bae042e23ff2c6e1e0df8b9185d7))
+
 ## [4.11.0](https://github.com/shaka-project/shaka-player/compare/v4.10.0...v4.11.0) (2024-09-04)
 
 
